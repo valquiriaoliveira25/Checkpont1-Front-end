@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'roboto';
+    box-sizing: border-box;
+}
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-image: url(/img/ponte.jpg);
+    opacity: 90%;
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 5px 0px 10px 8px rgb(56, 51, 51, 50%);
+    background-position: center;
+}
+h1 {
+    color: white;
+    font-size: 60px;
+    font-style: italic;
+    font-family: open;
+}
+.navbar {
+    list-style: none;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.botao-nav {
+    list-style: none;
+    height: 45px;
+    width: 200px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.botao-text {
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+.secao {
+    gap: 75px;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-top: 40px;
+    font-weight: bold;
+}
+.card {
+    margin-top: 50px;
+    width: 550px;
+    height: 700px;
+    border-radius: 30px;
+    background-color: #eaeaea;
+    box-shadow: 5px 0px 10px 8px rgb(56, 51, 51, 50%);
+}
+.card-parque {
+    background-image: url("/img/Parque.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 320px;
+    border-radius: 30px 30px 10px 10px;
+    box-shadow: 0 5px 8px 0 rgba(30, 69, 119,0.57);
+}
+.card-lago {
+    background-image: url("/img/pontao.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 320px;
+    border-radius: 30px 30px 10px 10px;
+    box-shadow: 0 5px 8px 0 rgba(30, 69, 119,0.57);
+}
+.card-aviao {
+    background-image: url("/img/terra-espaco.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 320px;
+    border-radius: 30px 30px 10px 10px;
+    box-shadow: 0 5px 8px 0 rgba(30, 69, 119,0.57);
+}
+
+h3 {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 25px;
+}
+.card-texto {
+    align-items: center;
+    font-size: 21px;
+    text-align: center;
+    padding: 25px;
+    display: block;
+    margin-top: 45px;
+}
+.card-texto1 {
+    align-items: center;
+    font-size: 21px;
+    text-align: center;
+    padding: 25px;
+    display: block;
+    margin-top: 15px;
+}
+.video {
+    padding: 50px;
+    justify-content: center;
+    display: flex;
+}
+.video-youtube {
+    border-radius: 25px;
+    box-shadow: 5px 0px 10px 8px rgb(56, 51, 51, 50%);
+    width: 803px;
+    height: 452px;
+}
+footer {
+    height: 120px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    box-shadow: 5px 0px 10px 8px rgb(56, 51, 51, 50%);
+}
+.footer-list {
+    gap: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.rede-social {
+    display: flex;
+}
+.linkedin {
+    background-image: url(/img/linkedin1.png);
+    width: 290px;   
+    height: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.github {
+    background-image: url(/img/github.png);
+    width: 280px;
+    height: 90px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (min-width:425px) and (max-width:1280px) {
+    header {
+        opacity: 90%;
+        width: 100%;
+        height: 100px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .navbar {
+        gap: 8px;
+        flex-direction: column;
+    }
+    .botao-nav {
+        height: 25px;
+        width: 120px;
+        border-radius: 20px;
+    }
+    .botao-text {
+        font-size: 16px;
+    }
+    .container {
+        flex-direction: column; 
+    }
+    .secao {
+        gap: 45px;
+    }
+    .titulo {
+        font-size: 25px;
+    }
+    .card {
+        width: 380px;
+        height: 650px;
+    }
+    .card-parque {
+        width: 100%;
+        height: 280px;
+    }
+    .card-lago {
+        width: 100%;
+        height: 280px;
+    }
+    .card-aviao {
+        width: 100%;
+        height: 280px;
+    }
+    h3 {
+        padding: 20px;
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    .card-texto {
+        font-size: 17px;
+        padding: 20px;
+        display: block;
+        margin-top: 0;
+    }
+    .card-texto1 {
+        font-size: 17px;
+        padding: 25px;
+        display: block;
+        margin-top: 0;
+    }
+    .video-youtube {
+        border-radius: 15px;
+        box-shadow: 5px 0px 10px 8px rgb(56, 51, 51, 50%);
+        width: 100%;
+        height: 252px;
+    }
+    footer {
+        width: 100%;
+        height: 110px;
+    }
+    .footer-list {
+        display: flex;
+        gap: 15px;
+        margin-top: 20px;
+    }
+    .rede-social {
+        display: flex;
+    }
+    .linkedin {
+        width: 190px;   
+        height: 70px;
+        background-size: 70%;
+    }
+    .github {
+        width: 180px;
+        height: 90px;
+        background-size: 80%;
+    }
+}
